@@ -1,4 +1,5 @@
 import QtQuick 2.15
+import assets 1.0
 
 //Having a splash view like this is great if you’ve got an application with quite
 //a lot of initialization to do, and you can’t really have non-blocking UI.
@@ -6,7 +7,7 @@ import QtQuick 2.15
 Item {
     Rectangle {
         anchors.fill: parent
-        color: "#f4c842"
+        color: Style.colourBackground
 
         Text {
             anchors.centerIn: parent

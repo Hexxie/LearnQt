@@ -11,6 +11,7 @@ int main(int argc, char *argv[])
 
     QGuiApplication app(argc, argv);
     QQmlApplicationEngine engine;
+    engine.addImportPath("qrc:/");
 
    //Register the type with qml engine, to use it in QML
     qmlRegisterType<cm::controllers::NavigationController>("CM", 1, 0, "NavigationController");
