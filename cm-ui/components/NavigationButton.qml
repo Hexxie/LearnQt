@@ -11,7 +11,7 @@ Item {
 
     property color hoverColour: Style.colourNavigationBarBackground
 
-    width: Style.widthNavigationButton
+    width: parent.width
     height: Style.heightNavigationButton
 
     Rectangle {
